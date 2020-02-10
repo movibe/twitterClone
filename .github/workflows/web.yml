@@ -27,3 +27,8 @@ jobs:
         with:
           name: Web
           path: web-build
+      - name: ZEIT Now Deployment
+      - uses: amondnet/now-deployment@v1
+        with:
+          zeit-token: MNrkszrlhV21rnHFMucOJk0U
+          working-directory: web-build
