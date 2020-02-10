@@ -3,6 +3,7 @@
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
+    "build": "expo build:web",
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
@@ -39,6 +40,7 @@
     "@typescript-eslint/parser": "^2.16.0",
     "babel-preset-expo": "~8.0.0",
     "eslint": "^6.8.0",
+    "now": "^17.0.3",
     "typescript": "~3.6.3"
   },
   "private": true
